@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+  }
+  
+  .profile-card {
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 3px solid #4CAF50; 
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  .title {
+    font-size: 0.9em;
+    color: #777;
+    margin: 5px 0 15px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .stats h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0;
+  }
+  
+  .stats p {
+    font-size: 0.8em;
+    color: #777;
+    margin: 0;
+  }
+  
+  .bio {
+    font-size: 0.9em;
+    color: #666;
+    margin: 15px 0;
+    padding: 0 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+    font-size: 20px;
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .view-profile-btn {
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    color: #333;
+    font-size: 1em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .view-profile-btn:hover {
+    background-color: #d0d0d0;
+  }

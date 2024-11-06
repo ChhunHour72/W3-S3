@@ -1,0 +1,26 @@
+/* TODO */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+button {
+    background-color: #ff88c2; 
+    border: 3px solid #ff66a3; 
+    color: #ffffff; 
+    font-size: 24px; 
+    font-weight: bold;
+    padding: 15px 40px; 
+    border-radius: 25px; 
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s; 
+}
+
+button:hover {
+    background-color: #a64d79;
+    border-color: #803d5e; 
+}
+
